@@ -8,7 +8,7 @@ A new ChatGPT icon should appear in the Spaces Toolbar of Thunderbird. Click to 
 Download the repository, zip it, rename it to ChatGPT-Tab.xpi and choose install addon from file in Thunderbird.
 
 In linux the xpi file can be created with the following commands
-* `git clone https://github.com/feranick/Thunderbird-Google-Gemini-Tab`
+* `git clone https://github.com/feranick/Thunderbird-ChatGPT-Tab`
 * `cd ./Thunderbird-ChatGPT-Tab`
 * `VERSION=$(cat ./manifest.json | jq --raw-output '.version')`
-* `zip -r "../ChatGPTi-Tab-${VERSION}-tb.xpi" *`
+* `zip -r "../ChatGPT-Tab-${VERSION}-tb.xpi" *`
