@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "Scheda ChatGPT",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Aggiunge un bottone per aprire ChatGPT in una nuova tab.",
+    "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "ChatGPT",
+    "description": "Hover title for the Spaces Toolbar button."
+  },
+  "contextMenuTitle": {
+    "message": "Invia a ChatGPT: \"%s\"",
+    "description": "Context menu text. %s is automatically replaced by the user's selected text."
+  }
+}

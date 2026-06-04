@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.5",
+  "author": "Nicola Ferralis",
+  "homepage_url": "https://github.com/feranick/Thunderbird-ChatGPT-Tab/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "feranick.chatgpt-tab@addons.thunderbird.net",
+      "strict_min_version": "106.0"
+    }
+  },
+  "permissions": [
+    "menus",
+    "webRequest",
+    "webRequestBlocking",
+    "https://chatgpt.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "default_locale": "en",
+  "icons": {
+    "32": "skin/chatgpt_icon.svg",
+    "48": "skin/chatgpt_icon.svg",
+    "96": "skin/chatgpt_icon.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
